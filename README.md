@@ -1,18 +1,25 @@
 # Exploring Pendulum Dynamics: From Simplicity to Chaos
 
-This project investigates the dynamic behavior of pendulum systems, ranging from simple harmonic motion to complex, chaotic dynamics influenced by non-linear, driven, and damped conditions. Using numerical simulations and models such as the Euler-Cromer method, I explored various factors including:
+This repository contains the implementation of numerical methods used to explore the dynamic behavior of pendulum systems. The project investigates a range of phenomena, from simple harmonic motion to complex, chaotic dynamics influenced by non-linear, driven, and damped conditions. 
 
-- **Simple Pendulum Dynamics**: Analyzing motion under small-angle approximations.
-- **Nonlinear Systems**: Examining the impact of larger angular displacements.
-- **Damped and Driven Forces**: Investigating energy loss and external driving effects.
-- **Coupled Pendulums**: Exploring synchronized and anti-phase oscillations.
+## Methods Included
+The code in this repository covers the following models:
 
-## Key Findings
-The results reveal how small changes in initial conditions or parameters can transition a predictable system into a chaotic one. This research has practical applications in designing real-world systems such as clocks, sensors, and earthquake-resistant structures.
+- **Simple Pendulum Dynamics**: Simulations of motion under small-angle approximations.
+- **Nonlinear Systems**: Handling larger angular displacements to capture realistic pendulum behavior.
+- **Damped Motion**: Introducing energy loss through damping factors like air resistance or friction.
+- **Driven Motion**: Adding external driving forces to explore resonance and chaotic behaviors.
+- **Coupled Pendulums**: Simulating synchronized and anti-phase oscillations in systems of two or more connected pendulums.
+
+## Key Applications
+These methods can be used to understand and simulate:
+- Real-world systems such as clocks, sensors, and earthquake-resistant structures.
+- The transition from predictable to chaotic dynamics under varying initial conditions and parameters.
 
 ## Tools & Techniques
-- **Python**: For numerical simulations.
-- **Matplotlib**: To visualize dynamic behaviors.
-- **Euler-Cromer Method**: For differential equation modeling.
+- **Python**: For implementing and running numerical simulations.
+- **Matplotlib**: For visualizing the results of pendulum dynamics.
+- **Euler-Cromer Method**: To numerically solve differential equations governing pendulum motion.
+
 
 
