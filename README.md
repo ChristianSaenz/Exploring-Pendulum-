@@ -15,6 +15,4 @@ The results reveal how small changes in initial conditions or parameters can tra
 - **Matplotlib**: To visualize dynamic behaviors.
 - **Euler-Cromer Method**: For differential equation modeling.
 
----
 
-Explore the dynamics of pendulums and how these foundational principles connect theoretical understanding with real-world engineering challenges.
